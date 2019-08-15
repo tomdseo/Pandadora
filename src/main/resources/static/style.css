@@ -1,0 +1,12 @@
+body {
+	padding: 30px 10px 30px 10px;
+	color: red;
+}
+
+.max-width80 {
+	max-width: 80%;
+}
+
+.max-width40 {
+	max-width: 40%;
+}
