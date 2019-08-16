@@ -1,6 +1,5 @@
 body {
-	padding: 30px 10px 30px 10px;
-	color: red;
+	padding: 10px 30px 10px 30px;
 }
 
 .max-width80 {
@@ -9,4 +8,8 @@ body {
 
 .max-width40 {
 	max-width: 40%;
+}
+
+.sub-page {
+	padding: 30px 30px 30px 30px;
 }

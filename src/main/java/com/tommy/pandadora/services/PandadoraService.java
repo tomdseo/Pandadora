@@ -45,7 +45,7 @@ public class PandadoraService {
     
     //finds top ten songs
     public List<PandadoraModel> findTopTen() {
-    	return pandadoraRepository.findByOrderById();
+    	return pandadoraRepository.findByOrderByRatingDesc();
     }
     
 }

@@ -1,6 +1,6 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>   
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%> 
-<%@ page contentType="text/html; charset=UTF-8" %> <!--IMPORTANT LINE TO DISPLAY EMOJISSSSSS-->
+<%@ page contentType="text/html; charset=UTF-8" %> <!--IMPORTANT LINE TO DISPLAY EMOJIS-->
 
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,7 +10,7 @@
 <body>
 <a href="/dashboard">Dashboard</a>
 <div class="max-width80 mx-auto">
-		<p class="lead">Input a Song</p>
+		<p class="display-4">Add a Song</p>
 		<form:form action="/add_song" method="POST" modelAttribute="song">
 		    <p>
 		        <form:label path="title">Song Title</form:label>
